@@ -11,12 +11,9 @@ CONFIG = {
     'author_email': 'jtannas@gmail.com',
     'version': '0.1',
     'install_requires': [
-        'docutils',
         'pytest',
-        'virtualenvwrapper',
-        'yapf',
     ],
-    'packages': ['py_skeleton'],
+    'packages': ['NAME'],
     'scripts': ['bin/hello'],
     'name': 'py_skeleton',
 }

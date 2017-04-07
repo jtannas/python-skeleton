@@ -6,8 +6,8 @@ This is a skeleton for Python Projects. Read it or be forever lost.
 
 Tools Summary
 *************
-:IDE: Cloud9
-:Language: Python3.6
+:IDE: Cloud9 (Ubuntu 14.04, ACE code editor)
+:Language: Python3.6.1
 :Style: PEP8 + <project root>/setup.cfg[style]
 :Style Formatter: YAPF
 :Style Checker: PyLint

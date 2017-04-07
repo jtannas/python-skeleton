@@ -5,6 +5,7 @@ Say something about what TEMPLATE is for. Docstring line limit 72. -->|
 """
 
 ### IMPORTS ###################################################################
+import sys
 
 
 ### SOMETHING ELSE ############################################################
@@ -23,6 +24,7 @@ def main():
     """
     greeting = "Hello, world"
     print(greeting)
+    print(sys.version)
     return greeting
 
 

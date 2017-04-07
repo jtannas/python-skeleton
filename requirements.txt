@@ -1,0 +1,3 @@
+# Python modules that are useful for coding but aren't required to run
+yapf
+docutils
