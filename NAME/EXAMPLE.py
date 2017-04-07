@@ -5,27 +5,24 @@ Say something about what TEMPLATE is for. Docstring line limit 72. -->|
 """
 
 ### IMPORTS ###################################################################
-import sys
 
 
-### SOMETHING ELSE ############################################################
+### SECTION ###################################################################
 def main():
     """
-    My Example function prints and returns 'Hello, world'
+    My Example function prints 'Hello, world'
 
     Arguments:
         - None
 
-    Returns
-        - 'Hello, world'
+    Returns:
+        - prints 'Hello, world'
 
-    Examples / Tests
+    Examples / Tests:
         >>> main()
+        Hello, world
     """
-    greeting = "Hello, world"
-    print(greeting)
-    print(sys.version)
-    return greeting
+    print('Hello, world')
 
 
 ### EOC #######################################################################

@@ -1,3 +1,6 @@
-# Python modules that are useful for coding but aren't required to run
-yapf
-docutils
+# Dev Tools; Not needed for distribution
+docutils                    # docstring collector
+pytest                      # code tester
+yapf                        # code formatter
+Sphinx                      # documentation generator
+sphinxcontrib-napoleon      # alternate rst docstring format
