@@ -13,10 +13,10 @@ def main():
     My Example function prints 'Hello, world'
 
     Args:
-        - None
+        None (None): Does not require any arguments
 
     Returns:
-        - prints 'Hello, world'
+        Prints 'Hello, world'
 
     Examples:
         >>> main()
