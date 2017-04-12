@@ -3,4 +3,4 @@ docutils                    # docstring collector
 pytest                      # code tester
 yapf                        # code formatter
 sphinx                      # documentation generator
-sphinxcontrib-napoleon      # alternate rst docstring format
+sphinx_rtd_theme            # sphinx ReadTheDocs theme
