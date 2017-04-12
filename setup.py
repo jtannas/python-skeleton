@@ -1,4 +1,15 @@
+"""
+This module contains the package installer routine
+"""
+
+
 def main():
+    """Package installer routine.
+
+    :Install via: python setup.py install
+    :Uninstall via: pip uninstall <setup.py:CONFIG['name']>
+    """
+
     try:
         from setuptools import setup
     except ImportError:
@@ -12,7 +23,7 @@ def main():
         'author_email': 'jtannas@gmail.com',
         'version': '0.1',
         'install_requires': [],
-        'packages': ['NAME'],
+        'packages': ['app'],
         'scripts': ['bin/hello'],
         'name': 'py_skeleton',
     }

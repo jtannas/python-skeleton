@@ -2,5 +2,5 @@
 docutils                    # docstring collector
 pytest                      # code tester
 yapf                        # code formatter
-Sphinx                      # documentation generator
+sphinx                      # documentation generator
 sphinxcontrib-napoleon      # alternate rst docstring format

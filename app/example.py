@@ -1,30 +1,30 @@
 #!/usr/bin/python3.6
-"""TEMPLATE Module Docstring
+"""Example Module Docstring
 
-Say something about what TEMPLATE is for. Docstring line limit 72. -->|
+Say something about what the module is for. Docstring line limit 72ish.
 """
 
 ### IMPORTS ###################################################################
 
 
-### SECTION ###################################################################
+### SECTION DELIMETER #########################################################
 def main():
     """
     My Example function prints 'Hello, world'
 
-    Arguments:
+    Args:
         - None
 
     Returns:
         - prints 'Hello, world'
 
-    Examples / Tests:
+    Examples:
         >>> main()
         Hello, world
+
     """
     print('Hello, world')
 
 
-### EOC #######################################################################
 if __name__ == "__main__":
     main()
