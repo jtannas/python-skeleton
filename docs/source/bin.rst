@@ -1,4 +1,4 @@
-bin Folder
+Bin Folder
 ==========
 
 This folder contains scripts that aren't integral to the workings of

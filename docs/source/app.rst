@@ -1,4 +1,4 @@
-app package
+App Package
 ===========
 
 Submodules
@@ -13,7 +13,7 @@ app\.example module
     :show-inheritance:
 
 
-Module contents
+Module Contents
 ---------------
 
 .. automodule:: app

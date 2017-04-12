@@ -1,7 +1,7 @@
-setup files
+Setup Files
 ===========
 
-setup module
+Setup Module
 ------------
 
 .. automodule:: setup

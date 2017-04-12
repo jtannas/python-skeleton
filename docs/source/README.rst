@@ -8,22 +8,26 @@ documentation for each workspace folder for more detailed stuff.
 Tools Summary
 -------------
 
-:IDE: Cloud9 (Ubuntu 14.04, ACE code editor)
-:Language: Python3.6.1
-:Virtual Environment Manager: python3.6 venv
-:Virtual Environment Location: <project root>/venv
-:Version Control: Git
-:Central Repository: GitHub
-:Style: PEP8 + <project root>/setup.cfg[style]
-:Style Formatter: YAPF
-:Style Checker: PyLint3
-:Testing: Pytest
-:Tests Folder: <project root>/tests
-:Test Naming: test_<name>.py
-:Scripts Folder: <project root>/bin
-:Instance Folder: <project root>/instance
-:Documentation: Sphinx RST, sphinx-apidoc
-:Docs Folder: <project root>/docs
+.. csv-table:: Tools Summary
+    :header: "Need", "Solution"
+    :widths: 40, 40
+
+    "IDE", "Cloud9 (Ubuntu 14.04, ACE code editor)"
+    "Language", "Python3.6.1"
+    "Virtual Environment Manager", "python3.6 venv"
+    "Virtual Environment Location", "<project root>/venv"
+    "Version Control", "Git"
+    "Central Repository", "GitHub"
+    "Style", "PEP8 + <project root>/setup.cfg[style]"
+    "Style Formatter", "YAPF"
+    "Style Checker", "PyLint3"
+    "Testing", "Pytest"
+    "Tests Folder", "<project root>/tests"
+    "Test Naming", "test_<name>.py"
+    "Scripts Folder", "<project root>/bin"
+    "Instance Folder", "<project root>/instance"
+    "Documentation", "Sphinx RST, sphinx-apidoc"
+    "Docs Folder", "<project root>/docs"
 
 
 Cloud9 Notes
