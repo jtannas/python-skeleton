@@ -1,6 +1,9 @@
 App Package
 ===========
 
+This package (aka. directory with an ``__init__.py`` module) contains
+the actual application code.
+
 Submodules
 ----------
 

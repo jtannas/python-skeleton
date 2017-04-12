@@ -1,6 +1,9 @@
 Tests Package
 =============
 
+This package contains the test code, generally for testing the app
+package.
+
 Submodules
 ----------
 

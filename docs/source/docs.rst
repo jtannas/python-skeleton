@@ -12,8 +12,8 @@ Folder structure
     |-- _templates\     Folder for if you want to use jinja templates
     |-- source\         Where the rst files (aka the actual documentation) are stored
     |-- conf.py         The configuration file for sphinx
-    |-- index.rst       The root file of the actual documentatino
-    |-- Makefile        Tells sphinx what to do when the make command is issued
+    |-- index.rst       The root file of the actual documentation
+    `-- Makefile        Tells sphinx what to do when the make command is issued
 
 Sphinx Quickstart
 -----------------
