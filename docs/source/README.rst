@@ -21,7 +21,8 @@ Tools Summary
     "Style", "PEP8 + <project root>/setup.cfg[style]"
     "Style Formatter", "YAPF"
     "Style Checker", "PyLint3"
-    "Testing", "Pytest"
+    "Testing - Unit", "Pytest",
+    "Testing - Compatibility", "tox"
     "Tests Folder", "<project root>/tests"
     "Test Naming", "test_<name>.py"
     "Type Checking", "mypy"
@@ -126,6 +127,13 @@ One of configuration options is to enable doctest, where docstrings can
 be used for testing. This is my preferred option for simple~ish
 functions, since it packages everything together and gives examples to
 the reader.
+
+Another testing package, tox, is used for checking compatibility with
+different versions of python. The gist of tox is it creates virtual
+environments for multiple versions of python and tries to install the
+package in them and to run the unit testing package (ie. pytest). It
+reports back whatever failures it had, so you know if there are any
+compatibility issues in your project.
 
 Documentation
 -------------
