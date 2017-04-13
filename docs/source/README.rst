@@ -24,6 +24,7 @@ Tools Summary
     "Testing", "Pytest"
     "Tests Folder", "<project root>/tests"
     "Test Naming", "test_<name>.py"
+    "Type Checking", "mypy"
     "Scripts Folder", "<project root>/bin"
     "Instance Folder", "<project root>/instance"
     "Documentation", "Sphinx RST, sphinx-apidoc"

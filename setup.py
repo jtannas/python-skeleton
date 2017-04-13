@@ -22,7 +22,7 @@ def main():
         'download_url': 'https://goo.gl/jpBQxg',
         'author_email': 'jtannas@gmail.com',
         'version': '0.1',
-        'install_requires': [],
+        'install_requires': ['mypy'],
         'packages': ['app'],
         'scripts': ['bin/hello'],
         'name': 'py_skeleton',
