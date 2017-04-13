@@ -12,9 +12,9 @@ Workspace Folder Structure
    |-- docs/      The documentation folder.
    |-- instance/  Instance specific files.
    |-- tests/     Code tests folder.
-   |-- venv/      The virtual environment folder.
    |-- setup.cfg  A configuration file for the project tools.
    `-- setup.py   The package installer module.
+   venv/          The virtual environment folder.
 
 Workspace docs
 --------------
