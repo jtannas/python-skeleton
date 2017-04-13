@@ -1,5 +1,5 @@
 """
-This module contains the package installer routine
+This module contains the package installer routine.
 """
 
 

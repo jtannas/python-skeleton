@@ -1,5 +1,6 @@
+mypy                        # python static type checker
+
 # Dev Tools; Not needed for distribution
-docutils                    # docstring collector
 pytest                      # code tester
 yapf                        # code formatter
 sphinx                      # documentation generator
