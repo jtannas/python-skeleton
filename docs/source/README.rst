@@ -65,7 +65,7 @@ To create a virtual environment, we're using the venv command packaged
 with Python 3.6. Cloud9's Ubuntu 14.0 doesn't like this, so the process
 is a bit convoluted. Here's some background: http://askubuntu.com/a/488530
 
-.. code-block:: bash
+.. code-block:: none
 
     $ cd ~/workspace
     $ python3.6 -m venv --without-pip ./venv
@@ -76,12 +76,35 @@ is a bit convoluted. Here's some background: http://askubuntu.com/a/488530
 
 To verify the installation of Python in the virtual environment.
 
-.. code-block:: bash
+.. code-block:: none
 
     $ source venv/bin/activate
     $ python --version
     $ pip --version
 
+There is another tool to help make sure that we don't forget to activate
+the virtual environment: ``autoenv``. When cd'ing into a directory, it
+automatically runs the commands listed in a hidden file ``.env``.
+
+.. code-block:: none
+    $ deactivate
+    $ pip install autoenv==1.0.0
+    $ cd project
+    $ touch .env
+
+Next, in your .env file, add the following:
+
+.. code-block:: none
+    source ~/workspace/venv/bin/activate
+    export APP_SETTINGS="config.DevelopmentConfig"
+
+Run the following to update then refresh your .bashrc:
+.. code-block:: none
+    $ echo "source `which activate.sh`" >> ~/.bashrc
+    $ source ~/.bashrc
+
+Now, if you move up a directory and then cd back into it, the virtual
+environment will automatically be started.
 
 Language Notes
 --------------

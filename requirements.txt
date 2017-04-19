@@ -1,6 +1,7 @@
 mypy                        # python static type checker
 
 # Dev Tools; Not needed for distribution
+autoenv                     # runs commands when cd-ing into a folder
 pytest                      # code tester
 yapf                        # code formatter
 sphinx                      # documentation generator
